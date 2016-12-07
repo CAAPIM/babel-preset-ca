@@ -4,6 +4,10 @@
   "description": "Babel preset for CA",
   "author": "Bevan Hunt <bevan.hunt@ca.com>",
   "license": "MIT",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz"
+  },
   "repository": "https://github-isl-01.ca.com/APIM-WEB/babel-preset-ca",
   "main": "index.js",
   "dependencies": {
@@ -13,5 +17,19 @@
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.8.6",
+    "cz-conventional-changelog": "^1.2.0",
+    "husky": "^0.11.9",
+    "validate-commit-msg": "^2.8.2"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "types": "conventional-commit-types"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
