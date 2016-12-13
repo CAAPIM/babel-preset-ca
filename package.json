@@ -8,7 +8,7 @@
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz"
   },
-  "repository": "https://github-isl-01.ca.com/APIM-WEB/babel-preset-ca",
+  "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.19.0",
