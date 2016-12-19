@@ -1,5 +1,7 @@
 # Babel Preset for CA Technologies
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![dependencies](https://david-dm.org/caapim/babel-preset-ca.svg)](https://david-dm.org/caapim/babel-preset-ca)
+[![devDependency Status](https://david-dm.org/caapim/babel-preset-ca/dev-status.svg)](https://david-dm.org/caapim/babel-preset-ca#info=devDependencies)
 
 This module is intended to be used in all CA React components and applications
 ************************************************************
