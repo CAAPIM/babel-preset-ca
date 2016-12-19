@@ -2,7 +2,6 @@
   "name": "babel-preset-ca",
   "version": "1.0.0",
   "description": "Babel preset for CA",
-  "author": "Bevan Hunt <bevan.hunt@ca.com>",
   "license": "MIT",
   "scripts": {
     "commitmsg": "validate-commit-msg",
