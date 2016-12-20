@@ -1,8 +1,13 @@
 {
   "name": "babel-preset-ca",
+  "author": "CA Technologies",
   "version": "1.0.0",
   "description": "Babel preset for CA",
-  "author": "Bevan Hunt <bevan.hunt@ca.com>",
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "ca"
+  ],
   "license": "MIT",
   "scripts": {
     "commitmsg": "validate-commit-msg",
