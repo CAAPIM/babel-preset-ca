@@ -3,12 +3,11 @@
 [![dependencies](https://david-dm.org/caapim/babel-preset-ca.svg)](https://david-dm.org/caapim/babel-preset-ca)
 [![devDependency Status](https://david-dm.org/caapim/babel-preset-ca/dev-status.svg)](https://david-dm.org/caapim/babel-preset-ca#info=devDependencies)
 
-This module is intended to be used in all CA React components and applications
-************************************************************
+## Overview
+This package provides CA's Babel configurations as an extensible shared preset. This preset is intended to be used in all CA applications that contain ES6/7 JavaScript.
 
 ## Installation
-` npm install --save babel-preset-ca `
-************************************************************
+` npm install --save-dev babel-preset-ca`
 
 ## Usage
 Add the following line to your .babelrc file:
@@ -18,7 +17,6 @@ Add the following line to your .babelrc file:
   "presets": ["ca"]
 }
 ```
-************************************************************
 
 ## How Can You Contribute
 Your contributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines](https://github.com/CAAPIM/babel-preset-ca/blob/master/CONTRIBUTING.md).
@@ -27,7 +25,6 @@ This project supports `commitizen`. You can use `npm run commit` to run the loca
 
 Alternatively, if you are simply using `git commit`, you must follow this format:
 `git commit -m "<type>: <subject>"`
-************************************************************
 
 ## License
 Copyright (c) 2016 CA. All rights reserved.
