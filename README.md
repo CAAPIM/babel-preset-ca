@@ -4,7 +4,7 @@
 [![devDependency Status](https://david-dm.org/caapim/babel-preset-ca/dev-status.svg)](https://david-dm.org/caapim/babel-preset-ca#info=devDependencies)
 
 ## Overview
-This package provides CA's Babel configurations as an extensible shared preset. This preset is intended to be used in all CA applications that contain ES6/7 JavaScript.
+This package provides CA's [Babel](https://babeljs.io/) configurations as an extensible shared preset. This preset is intended to be used in all CA applications that contain ES6/7 JavaScript.
 
 ## Installation
 ` npm install --save-dev babel-preset-ca`
