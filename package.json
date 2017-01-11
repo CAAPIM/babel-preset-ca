@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-ca",
   "author": "CA Technologies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel preset for CA",
   "keywords": [
     "babel",
@@ -39,7 +39,7 @@
       "types": "conventional-commit-types"
     },
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   }
 }
