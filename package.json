@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-ca",
   "author": "CA Technologies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel preset for CA",
   "keywords": [
     "babel",
@@ -13,7 +13,7 @@
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz",
     "precommit": "npm run test",
-    "test": "node ./test/test.js"
+    "test": "node ./tests/test.js"
   },
   "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
