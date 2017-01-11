@@ -1,7 +1,8 @@
 # Babel Preset for CA Technologies
+[![Build Status](https://travis-ci.org/CAAPIM/babel-preset-ca.svg?branch=master)](https://travis-ci.org/CAAPIM/babel-preset-ca)
+[![dependencies](https://david-dm.org/CAAPIM/babel-preset-ca.svg)](https://david-dm.org/CAAPIM/babel-preset-ca)
+[![devDependency Status](https://david-dm.org/CAAPIM/babel-preset-ca/dev-status.svg)](https://david-dm.org/CAAPIM/babel-preset-ca#info=devDependencies)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![dependencies](https://david-dm.org/caapim/babel-preset-ca.svg)](https://david-dm.org/caapim/babel-preset-ca)
-[![devDependency Status](https://david-dm.org/caapim/babel-preset-ca/dev-status.svg)](https://david-dm.org/caapim/babel-preset-ca#info=devDependencies)
 
 ## Overview
 This package provides CA's [Babel](https://babeljs.io/) configurations as an extensible shared preset. This preset is intended to be used in all CA applications that contain ES6/7 JavaScript.
