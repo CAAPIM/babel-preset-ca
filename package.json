@@ -14,7 +14,7 @@
     "commit": "git-cz",
     "precommit": "npm run test",
     "test": "node ./tests/test.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
