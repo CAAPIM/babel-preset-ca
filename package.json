@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-ca",
   "author": "CA Technologies",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "description": "Babel preset for CA",
   "keywords": [
     "babel",
@@ -13,7 +13,8 @@
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz",
     "precommit": "npm run test",
-    "test": "node ./tests/test.js"
+    "test": "node ./tests/test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
@@ -32,7 +33,8 @@
     "cz-conventional-changelog": "^1.2.0",
     "husky": "^0.11.9",
     "react": "^15.4.2",
-    "validate-commit-msg": "^2.8.2"
+    "validate-commit-msg": "^2.8.2",
+    "semantic-release": "^6.3.2"
   },
   "config": {
     "validate-commit-msg": {
