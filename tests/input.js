@@ -27,7 +27,7 @@ function dec(id){
 
 // class decorators and properties
 class Foobar {
-  @dec(1);
+  @dec(1)
   static foo = 1;
 }
 
