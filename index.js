@@ -4,7 +4,7 @@
  * of the MIT license. See the LICENSE file for details.
  */
 
-var latest = require('babel-preset-latest');
+var env = require('babel-preset-env');
 var react = require('babel-preset-react');
 
 var transformDoExpressions = require('babel-plugin-transform-do-expressions');
@@ -15,7 +15,7 @@ var transformSpread = require('babel-plugin-transform-object-rest-spread');
 
 module.exports = {
   presets: [
-    latest,
+    env,
     react
   ],
   plugins: [
