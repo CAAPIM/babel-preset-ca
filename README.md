@@ -1,4 +1,6 @@
 # Babel Preset for CA Technologies
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/CAAPIM/babel-preset-ca.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/CAAPIM/babel-preset-ca.svg?branch=master)](https://travis-ci.org/CAAPIM/babel-preset-ca)
 [![dependencies](https://david-dm.org/CAAPIM/babel-preset-ca.svg)](https://david-dm.org/CAAPIM/babel-preset-ca)
 [![devDependency Status](https://david-dm.org/CAAPIM/babel-preset-ca/dev-status.svg)](https://david-dm.org/CAAPIM/babel-preset-ca#info=devDependencies)
