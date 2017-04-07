@@ -19,7 +19,7 @@
   "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-do-expressions": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
