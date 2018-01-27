@@ -36,7 +36,7 @@
     "husky": "^0.13.3",
     "react": "^15.4.2",
     "validate-commit-msg": "^2.8.2",
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^12.4.0"
   },
   "config": {
     "validate-commit-msg": {
