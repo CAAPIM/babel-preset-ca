@@ -16,12 +16,6 @@ function dec(id){
   return (target, property, descriptor) => console.log('executed', id);
 }
 
-// class decorators and properties
-class Foobar {
-  @dec(1)
-  static foo = 1;
-}
-
 // react preset
 var HelloMessage = React.createClass({
   render: function () {
