@@ -4,28 +4,19 @@
  * of the MIT license. See the LICENSE file for details.
  */
 
-var es2015 = require('babel-preset-es2015');
-var es2016 = require('babel-preset-es2016');
-var es2017 = require('babel-preset-es2017');
+var env = require('babel-preset-env');
 var react = require('babel-preset-react');
 
-var transformDoExpressions = require('babel-plugin-transform-do-expressions');
-// add default as it is required to get function
-var transformLegacy = require('babel-plugin-transform-decorators-legacy').default;
-var transformProperties = require('babel-plugin-transform-class-properties');
 var transformSpread = require('babel-plugin-transform-object-rest-spread');
+var transformProperties = require('babel-plugin-transform-class-properties');
 
 module.exports = {
   presets: [
-    es2015,
-    es2016,
-    es2017,
+    env,
     react
   ],
   plugins: [
-    transformLegacy,
-    transformProperties,
-    transformDoExpressions,
-    transformSpread
+    transformSpread,
+    transformProperties
   ]
 }

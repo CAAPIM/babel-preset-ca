@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-ca",
   "author": "CA Technologies",
-  "version": "0.0.0-development",
+  "version": "1.2.0",
   "description": "Babel preset for CA",
   "keywords": [
     "babel",
@@ -20,23 +20,20 @@
   "main": "index.js",
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.19.0",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-plugin-transform-do-expressions": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-es2016": "^6.22.0",
-    "babel-preset-es2017": "^6.22.0",
-    "babel-preset-react": "^6.16.0"
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-core": "^6.21.0",
+    "react": "^15.6.1",
+    "babel-loader": "^7.1.2"
   },
   "devDependencies": {
-    "babel-core": "^6.21.0",
     "chalk": "^1.1.3",
     "commitizen": "^2.8.6",
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
-    "react": "^15.4.2",
-    "validate-commit-msg": "^2.8.2",
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.2",
+    "validate-commit-msg": "^2.8.2"
   },
   "config": {
     "validate-commit-msg": {

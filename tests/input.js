@@ -11,24 +11,9 @@ let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
 // Spread properties
 let n = { x, y, ...z };
 
-// do expressions
-let loop = do {
-  if(x > 10) {
-    'big';
-  } else {
-    'small';
-  }
-};
-
 // decorator function
 function dec(id){
   return (target, property, descriptor) => console.log('executed', id);
-}
-
-// class decorators and properties
-class Foobar {
-  @dec(1)
-  static foo = 1;
 }
 
 // react preset
