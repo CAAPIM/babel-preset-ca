@@ -9,6 +9,8 @@ var react = require('babel-preset-react');
 
 var transformSpread = require('babel-plugin-transform-object-rest-spread');
 var transformProperties = require('babel-plugin-transform-class-properties');
+var syntaxDynamicImport = require('babel-plugin-syntax-dynamic-import');
+var transformReactJsx = require('babel-plugin-transform-react-jsx');
 
 module.exports = {
   presets: [
@@ -17,6 +19,8 @@ module.exports = {
   ],
   plugins: [
     transformSpread,
-    transformProperties
+    transformProperties,
+    syntaxDynamicImport,
+    transformReactJsx
   ]
 }
