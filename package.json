@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-ca",
   "author": "CA Technologies",
-  "version": "1.2.0",
+  "version": "0.0.0",
   "description": "Babel preset for CA",
   "keywords": [
     "babel",
@@ -19,6 +19,8 @@
   "repository": "https://github.com/CAAPIM/babel-preset-ca",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-plugin-transform-class-properties": "^6.19.0",
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
     "babel-preset-react": "^6.16.0",
